@@ -16,7 +16,7 @@ string decimalToBinary(int n) {
     return binary == "" ? "0" : binary;
 }
 
-// Function 2: Binary to Decimal
+/ Function 2: Binary to Decimal
 int binaryToDecimal(string b) {
     return stoi(b, nullptr, 2);
 }
