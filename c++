@@ -21,7 +21,7 @@ int binaryToDecimal(string b) {
     return stoi(b, nullptr, 2);
 }
 
-// Function 3: Decimal to Hexadecimal
+/ Function 3: Decimal to Hexadecimal
 string decimalToHexadecimal(int n) {
     string hex = "";
     char hexDigits[] = "0123456789ABCDEF";
