@@ -32,7 +32,7 @@ string decimalToHexadecimal(int n) {
     return hex == "" ? "0" : hex;
 }
 
-// Function 4: Hexadecimal to Decimal
+/ Function 4: Hexadecimal to Decimal
 int hexadecimalToDecimal(string h) {
     return stoi(h, nullptr, 16);
 }
